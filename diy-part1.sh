@@ -17,4 +17,3 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/tuanqing/install-program package/install-program
-git clone https://github.com/kongfl888/luci-app-adguardhome package/adguardhome
