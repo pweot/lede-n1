@@ -19,6 +19,5 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 git clone https://github.com/vernesong/OpenClash.git package-temp
 mv -f package-temp/luci-app-openclash package/lean/
 rm -rf package-temp
-git clone https://github.com/pymumu/luci-app-smartdns package-tem
-mv -f package-tem/luci-app-smartdns package/lean/
-rm -rf package-tem
+echo 'src-git smartdns https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
+
